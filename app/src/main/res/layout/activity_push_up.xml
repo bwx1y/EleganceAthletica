@@ -26,28 +26,112 @@
             android:textSize="34sp"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/award"
-            android:text="Back" />
-
     </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/menu" >
+        android:layout_below="@id/menu">
 
-        <TextView
-            android:id="@+id/textView2"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="19px"
-            android:paddingTop="10dp"
-            android:text="Push up adalah latihan yang bagus untuk memperkuat otot-otot dada, trisep, dan bahu. Berikut adalah cara melakukan push up dalam 5 langkah dengan waktu yang disarankan:"
-            android:textStyle="bold" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="19px"
+                android:paddingTop="10dp"
+                android:text="Push up adalah latihan yang bagus untuk memperkuat otot-otot dada, trisep, dan bahu. Berikut adalah cara melakukan push up dalam 5 langkah dengan waktu yang disarankan:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Posisi Awal (0 detik):  Berbaring telungkup dengan tangan Anda diletakkan di bawah bahu Anda. Pastikan tangan Anda sejajar satu sama lain dan telapak tangan menempel pada lantai. Pastikan tubuh Anda membentuk garis lurus dari kepala hingga tumit. Angkat kaki Anda, sehingga hanya ujung jari kaki yang menyentuh lantai. " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Turunkan Badan (2 detik):  Turunkan tubuh Anda secara perlahan dengan menjaga tubuh tetap lurus. Ini adalah fase penurunan. Kedua siku harus membentuk sudut sekitar 90 derajat saat Anda menurunkan badan. " />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Push Up (1 detik):  Setelah badan Anda mencapai titik terendah, dorong tubuh Anda kembali ke posisi awal dengan kekuatan otot dada, trisep, dan bahu Anda. Pastikan untuk menjaga tubuh tetap lurus dan tidak mengangkat pinggul Anda. " />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Kembali ke Posisi Awal (2 detik):  Angkat badan Anda kembali ke posisi awal dengan mengendurkan lengan. Pastikan tubuh tetap lurus seperti yang dijelaskan pada langkah pertama. " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Ulangi (0 detik):  Ulangi langkah-langkah 2 hingga 4 sebanyak yang Anda mampu. Idealnya, lakukan push up sebanyak 10 hingga 20 kali dalam satu set. Jika Anda pemula, mulailah dengan beberapa push up dan tingkatkan jumlahnya seiring berjalannya waktu." />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Contoh 1: Latihan 5 Menit "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text=" Lakukan 3 set push up dengan masing-masing set terdiri dari 10-15 push up. Istirahat singkat (sekitar 30 detik) antara setiap set. Ini akan memakan waktu sekitar 5 menit. "
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Contoh 2: Latihan 15 Menit "
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="28dp"
+                android:paddingRight="28dp"
+                android:text="Lakukan 5 set push up dengan masing-masing set terdiri dari 15-20 push up. Istirahat singkat (sekitar 30-60 detik) antara setiap set. Ini akan memakan waktu sekitar 15 menit."
+                android:textStyle="normal" />
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>
