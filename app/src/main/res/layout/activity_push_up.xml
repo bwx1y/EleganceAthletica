@@ -131,6 +131,7 @@
                 android:paddingRight="28dp"
                 android:text="Lakukan 5 set push up dengan masing-masing set terdiri dari 15-20 push up. Istirahat singkat (sekitar 30-60 detik) antara setiap set. Ini akan memakan waktu sekitar 15 menit."
                 android:textStyle="normal" />
+
         </LinearLayout>
     </ScrollView>
 
