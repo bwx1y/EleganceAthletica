@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Trophy">
+    tools:context=".PushUp">
 
     <RelativeLayout
         android:id="@+id/menu"
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Menu"
+            android:text="Push Up"
             android:textColor="@color/white"
             android:textColorHighlight="@color/white"
             android:textColorLink="@color/white"
@@ -30,9 +30,33 @@
             android:id="@+id/buttonBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
+            android:layout_alignParentEnd="false"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="30dp"
             app:srcCompat="@drawable/award" />
     </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="19px"
+            android:paddingTop="40px"
+            android:paddingRight="19px"
+            android:text="Push up adalah latihan yang bagus untuk memperkuat otot-otot dada, trisep, dan bahu. Berikut adalah cara melakukan push up dalam 5 langkah dengan waktu yang disarankan:"
+            android:textStyle="bold" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/award"
+        android:text="Youtube" />
+
 </RelativeLayout>

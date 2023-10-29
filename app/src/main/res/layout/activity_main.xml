@@ -28,7 +28,7 @@
             android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/buttonAward"
+            android:id="@+id/buttonBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"

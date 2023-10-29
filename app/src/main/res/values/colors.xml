@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#E5FAFD</color>
     <color name="backgroundNavbar">#687EFF</color>
+    <color name="red">#F44336</color>
 </resources>

@@ -2,6 +2,7 @@ package com.example.eleganceathletica;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -13,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        
+        pushUp = findViewById(R.id.buttonPushUp);
+
+        pushUp.setOnClickListener(V -> {
+            startActivity(new Intent(getApplicationContext(), PushUp.class));
+        });
     }
 }
