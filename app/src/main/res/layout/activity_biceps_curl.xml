@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PushUp">
+    tools:context=".BicepsCurl">
 
     <RelativeLayout
         android:id="@+id/menu"
@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Push Up"
+            android:text="Biceps Curl"
             android:textColor="@color/white"
             android:textColorHighlight="@color/white"
             android:textColorLink="@color/white"
@@ -44,10 +44,9 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="19dp"
+            android:paddingLeft="19px"
             android:paddingTop="10dp"
-            android:text="@string/viewsPushUp"
+            android:text="@string/viewsBicepsCurl"
             android:textStyle="bold" />
     </ScrollView>
-
 </RelativeLayout>
