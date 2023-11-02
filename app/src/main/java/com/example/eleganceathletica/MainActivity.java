@@ -15,9 +15,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pushUp = findViewById(R.id.buttonPushUp);
+        pullUp = findViewById(R.id.buttonPullUp);
 
         pushUp.setOnClickListener(V -> {
             startActivity(new Intent(getApplicationContext(), PushUp.class));
+        });
+
+        pullUp.setOnClickListener(V -> {
+            startActivity(new Intent(getApplicationContext(), PullUp.class));
         });
     }
 }
