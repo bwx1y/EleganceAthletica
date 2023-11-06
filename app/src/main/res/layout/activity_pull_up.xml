@@ -61,6 +61,7 @@
                 android:paddingLeft="19px"
                 android:paddingTop="10dp"
                 android:text="@string/viewsPullUp"
+                android:textSize="16sp"
                 android:textStyle="bold" />
         </LinearLayout>
     </ScrollView>
@@ -69,6 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:background="#FEFAFD"
         android:orientation="vertical">
 
         <Button
