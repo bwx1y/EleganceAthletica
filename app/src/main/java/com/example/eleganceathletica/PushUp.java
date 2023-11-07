@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class PushUp extends AppCompatActivity {
     private final String urlYoutube = "https://youtu.be/fMKBfvsltAQ?si=TfImiHi3tgbAhpqw"; // link untuk video youtube
-    private final long times = 600000; // satuan times adalah milisecond
+    private final long times = 60000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;
 

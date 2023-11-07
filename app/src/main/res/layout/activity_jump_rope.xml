@@ -6,6 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".JumpRope">
 
+    <ImageView
+        android:id="@+id/imageJumpRope"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="472dp"
+        app:srcCompat="@drawable/rope" />
+
     <RelativeLayout
         android:id="@+id/menu"
         android:layout_width="match_parent"
@@ -19,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Pull Up"
+            android:text="Jump Rope"
             android:textColor="@color/white"
             android:textColorHighlight="@color/white"
             android:textColorLink="@color/white"
@@ -39,7 +51,8 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/menu" >
+        android:layout_below="@id/menu"
+        android:layout_marginTop="193dp">
 
         <TextView
             android:id="@+id/textView2"
@@ -78,4 +91,5 @@
             android:drawableLeft="@drawable/play"
             android:text="Start" />
     </LinearLayout>
+
 </RelativeLayout>

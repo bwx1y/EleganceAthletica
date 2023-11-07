@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class JumpRope extends AppCompatActivity {
     private final String urlYoutube = "https://youtu.be/fLiozP7GVeA?si=YVZrpYU1DcObp4ZN"; // link untuk video youtube
-    private final long times = 600000; // satuan times adalah milisecond
+    private final long times = 900000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;
 
