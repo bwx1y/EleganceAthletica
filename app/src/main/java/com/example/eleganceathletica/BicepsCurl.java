@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class BicepsCurl extends AppCompatActivity {
-    private final String urlYoutube = "https://youtube.com/"; // link untuk video youtube
+    private final String urlYoutube = "https://youtu.be/sYV-ki-1blM?si=hrPFcq87nGqbfxOh"; // link untuk video youtube
     private final long times = 600000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;

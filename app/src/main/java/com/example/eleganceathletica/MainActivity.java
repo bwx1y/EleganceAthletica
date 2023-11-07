@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private Button pushUp, pullUp, sitUp, handstand, jump, jumpRope, bicepsCurl;
+    private ImageView award;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         this.jump = findViewById(R.id.buttonJump);
         this.jumpRope = findViewById(R.id.buttonJumpRope);
         this.bicepsCurl = findViewById(R.id.buttonBicepsCurl);
+
+        this.award = findViewById(R.id.buttonAward);
 
         this.pushUp.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), PushUp.class)));
         this.pullUp.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), PullUp.class)));
