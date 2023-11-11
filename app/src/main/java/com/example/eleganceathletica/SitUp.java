@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class SitUp extends AppCompatActivity {
     private final String urlYoutube = "https://youtu.be/amaKamAUjAY?si=p46DX8yjq4yrYg1q"; // link untuk video youtube
-    private final long times = 600000; // satuan times adalah milisecond
+    private final long times = 350000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;
 

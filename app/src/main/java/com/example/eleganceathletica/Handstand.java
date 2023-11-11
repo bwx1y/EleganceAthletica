@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 public class Handstand extends AppCompatActivity {
     private final String urlYoutube = "https://youtu.be/66wkBjdtQ_w?si=0mYD-wDuvQuY-7Go"; // link untuk video youtube
-    private final long times = 180000; // satuan times adalah milisecond
+    private final long times = 30000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;
 
