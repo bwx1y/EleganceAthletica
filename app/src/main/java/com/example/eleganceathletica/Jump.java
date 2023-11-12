@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Jump extends AppCompatActivity {
     private final String urlYoutube = "https://youtu.be/FJmRQ5iTXKE?si=AjFJdTbGZsxjdahm"; // link untuk video youtube
-    private final long times = 600000; // satuan times adalah milisecond
+    private final long times = 180000; // satuan times adalah milisecond
     private ImageView back;
     private Button start, youtube;
 
