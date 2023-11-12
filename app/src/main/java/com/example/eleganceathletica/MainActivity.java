@@ -32,5 +32,6 @@ public class MainActivity extends AppCompatActivity {
         this.handstand.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), Handstand.class)));
         this.jumpRope.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), JumpRope.class)));
         this.bicepsCurl.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), BicepsCurl.class)));
+        this.jump.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), Jump.class)));
     }
 }
