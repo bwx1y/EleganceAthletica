@@ -16,7 +16,7 @@
         android:layout_marginStart="142dp"
         android:layout_marginEnd="141dp"
         android:layout_marginBottom="465dp"
-        app:srcCompat="@drawable/bicep"
+        app:srcCompat="@drawable/jump"
         tools:srcCompat="@drawable/jump" />
 
     <RelativeLayout
@@ -59,7 +59,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Untuk mendapatkan dorongan energi cepat melalui olahraga, cobalah melakukan sprint pendek sejauh 50-100 meter atau melompat tali dengan cepat. Alternatif lainnya adalah melakukan sesi latihan interval tinggi (HIIT) dengan gerakan seperti burpees, jumping jacks, atau mountain climbers, diikuti oleh istirahat singkat. Aktivitas-aktivitas ini dapat meningkatkan denyut jantung dan memberikan stimulasi cepat pada tubuh, memberikan dorongan energi dalam waktu singkat." />
+            android:text="Untuk memulai lompat tali dengan efektif, pertama-tama persiapkan tali yang sesuai panjangnya dan carilah tempat yang cukup luas. Mulailah dengan pemanasan ringan selama 5-10 menit, melibatkan peregangan dan gerakan ringan untuk mempersiapkan tubuh. Pegang tali dengan kedua tangan di samping tubuh, pastikan posisi tubuh tegak, dan pandangan lurus ke depan. Selanjutnya, mulai melompat kecil, memutar tali dengan pergelangan tangan, dan pastikan koordinasi gerakan melompat dengan putaran tali. Jaga ritme dan tingkatkan kesulitan perlahan dengan mencoba trik-trik baru. Setelah latihan, selesaikan dengan peregangan dan pernapasan dalam-dalam sebagai cooldown. Praktikkan secara rutin untuk meningkatkan keterampilan melompat tali dan memaksimalkan manfaat latihan ini bagi kebugaran tubuh secara keseluruhan." />
     </ScrollView>
 
     <LinearLayout
@@ -80,7 +80,7 @@
             android:text="Youtube" />
 
         <Button
-            android:id="@+id/buttonStartPullUp"
+            android:id="@+id/buttonStartJump"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"

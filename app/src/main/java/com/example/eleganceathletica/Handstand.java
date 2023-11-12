@@ -20,7 +20,7 @@ public class Handstand extends AppCompatActivity {
         setContentView(R.layout.activity_handstand);
 
         this.back = findViewById(R.id.buttonBack);
-        this.start = findViewById(R.id.buttonStartPullUp);
+        this.start = findViewById(R.id.buttonStartJump);
         this.youtube = findViewById(R.id.buttonYoutubePullUp);
 
         this.back.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));

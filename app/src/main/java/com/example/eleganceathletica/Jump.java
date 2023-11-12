@@ -20,11 +20,12 @@ public class Jump extends AppCompatActivity {
         setContentView(R.layout.activity_jump);
 
         this.back = findViewById(R.id.buttonBack);
-        this.start = findViewById(R.id.buttonStartPullUp);
+        this.start = findViewById(R.id.buttonStartJump);
         this.youtube = findViewById(R.id.buttonYoutubePullUp);
 
         this.back.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), MainActivity.class)));
         this.youtube.setOnClickListener(V -> startActivity(new Intent(Intent.ACTION_VIEW).setData(Uri.parse(this.urlYoutube))));
-        this.start.setOnClickListener(V -> startActivity(new Intent(Jump.this, Times.class).putExtra("times", this.times)));
+        this.start.setOnClickListener(V -> startActivity(new Intent(Jump.this, Jump.class).putExtra("times", this.times)));
+
     }
 }

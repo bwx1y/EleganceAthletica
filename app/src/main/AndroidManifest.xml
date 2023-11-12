@@ -34,7 +34,7 @@
             android:name=".PushUp"
             android:exported="false" />
         <activity
-            android:name=".tes"
+            android:name=".Jump"
             android:exported="false" />
         <activity
             android:name=".Trophy"
