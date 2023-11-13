@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ViewJump"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Jump">
@@ -32,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:text="Jump"
+            android:text="Long Jump"
             android:textColor="@color/white"
             android:textColorHighlight="@color/white"
             android:textColorLink="@color/white"
@@ -60,7 +61,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
-            android:text="Untuk memulai lompat tali dengan efektif, pertama-tama persiapkan tali yang sesuai panjangnya dan carilah tempat yang cukup luas. Mulailah dengan pemanasan ringan selama 5-10 menit, melibatkan peregangan dan gerakan ringan untuk mempersiapkan tubuh. Pegang tali dengan kedua tangan di samping tubuh, pastikan posisi tubuh tegak, dan pandangan lurus ke depan. Selanjutnya, mulai melompat kecil, memutar tali dengan pergelangan tangan, dan pastikan koordinasi gerakan melompat dengan putaran tali. Jaga ritme dan tingkatkan kesulitan perlahan dengan mencoba trik-trik baru. Setelah latihan, selesaikan dengan peregangan dan pernapasan dalam-dalam sebagai cooldown. Praktikkan secara rutin untuk meningkatkan keterampilan melompat tali dan memaksimalkan manfaat latihan ini bagi kebugaran tubuh secara keseluruhan." />
+            android:text="@string/ViewJump" />
     </ScrollView>
 
     <LinearLayout
