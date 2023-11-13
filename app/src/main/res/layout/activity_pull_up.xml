@@ -47,7 +47,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imagePullUp"
+                android:id="@+id/imagePushUp"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginTop="20dp"
@@ -71,7 +71,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:background="#FEFAFD"
         android:orientation="vertical">
 
         <Button
