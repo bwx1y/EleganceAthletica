@@ -52,7 +52,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/menu"
-        android:layout_marginTop="196dp">
+        android:layout_marginTop="196dp"
+        android:contextClickable="false">
 
         <TextView
             android:id="@+id/textView2"
@@ -61,7 +62,7 @@
             android:fontFamily="sans-serif-medium"
             android:paddingLeft="19px"
             android:paddingTop="10dp"
-            android:text="@string/viewsHandStand"
+            android:text="@string/viewHandstand"
             android:textStyle="bold" />
     </ScrollView>
 
