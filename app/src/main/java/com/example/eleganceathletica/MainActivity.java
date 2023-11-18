@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         this.jump = findViewById(R.id.buttonJump);
         this.jumpRope = findViewById(R.id.buttonJumpRope);
         this.bicepsCurl = findViewById(R.id.buttonBicepsCurl);
-
         this.award = findViewById(R.id.buttonAward);
 
         this.pushUp.setOnClickListener(V -> startActivity(new Intent(getApplicationContext(), PushUp.class)));
